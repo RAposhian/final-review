@@ -1,7 +1,11 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
-export default Header = () => (
+const Header = () => (
     <div>
-        Header Component
+        <Link to='/'>Products</Link>
+        <Link to='/cart'>Cart</Link>
     </div>
 )
+
+export default Header
